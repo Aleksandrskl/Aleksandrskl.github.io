@@ -1,4 +1,4 @@
-# Aleksandrskl.github.io
+# Aleksandr Skliar
 
 
 [CustDev](https://aleksandrskl.github.io/custdev/ )
