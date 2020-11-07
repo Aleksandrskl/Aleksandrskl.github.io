@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Услиги по 3D моделированию</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__nav">
+          <a href="#" class="logo">
+            <img src="img/logo.png" alt="logo" />
+          </a>
+          <div class="header__contacts-wrapper">
+            <div class="header__contacts">
+              <span class="header__contacts-text">Есть вопросы? Звоните!</span>
+              <a href="tel:880025909" class="header__contacts-link"
+                >8 /800/ 259 09 36</a
+              >
+            </div>
+          </div>
+          <div class="menu header__menu">
+            <a href="#" class="menu__link">
+              <span></span>
+            </a>
+            <div class="menu__wrap">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#services" class="menu__list-link menu--hover"
+                    >Наши услуги</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="#works" class="menu__list-link menu--hover"
+                    >Портфолио
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#advantages" class="menu__list-link menu--hover"
+                    >Почему мы лучшие?
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#operation" class="menu__list-link menu--hover"
+                    >Процесс взаимодействия
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#team" class="menu__list-link menu--hover"
+                    >Наша команда
+                  </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#blog" class="menu__list-link menu--hover">Блог </a>
+                </li>
+                <li class="menu__item">
+                  <a href="#contacts" class="menu__list-link menu--hover"
+                    >Остались вопросы?
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="container">
+          <div class="hero__content">
+            <h1 class="hero__title wow zoomInDown" data-wow-duration="1s">
+              Услиги по 3D моделированию
+              <span class="hero__subtitle">полный спектр услуг</span>
+            </h1>
+            <form action="send.php" method="POST" class="form hero__form">
+              <h3 class="hero__form-title">
+                Оставьте заявку сейчас и получите дизайн интерьера 25m<sup
+                  >2</sup
+                >
+                бесплатно!*
+              </h3>
+              <div class="hero__form-wrapper">
+                <div class="input-group hero__input-group">
+                  <label
+                    for="user-name"
+                    class="label form__label label--light"
+                  ></label>
+                  <input
+                    type="text"
+                    class="input form__input hero__input input--light"
+                    name="userName"
+                    id="user-name"
+                    placeholder="Ваше имя"
+                  />
+                </div>
+                <div class="input-group hero__input-group">
+                  <label
+                    for="user-email"
+                    class="label form__label label--light"
+                  ></label>
+                  <input
+                    type="email"
+                    class="input form__input hero__input input--light"
+                    name="userEmail"
+                    id="user-email"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="input-group hero__input-group">
+                  <label
+                    for="user-phone"
+                    class="label form__label label--light"
+                  ></label>
+                  <input
+                    type="tel"
+                    class="input form__input hero__input input--light"
+                    name="userPhone"
+                    id="user-phone"
+                    placeholder="Номер телефона"
+                  />
+                </div>
+              </div>
+              <button class="button button--primary hero__button">
+                Оставить заявку!
+              </button>
+            </form>
+            <span class="hero__policy"
+              >*Мы гарантируем конфидициальность передаваемых данных</span
+            >
+          </div>
+        </div>
+        <div class="scroll header__scroll">
+          <a class="header__scroll-link" href="#scroll-down">
+            <img
+              class="header__scroll-img wow bounce"
+              data-wow-duration="5s"
+              data-wow-iteration="2"
+              src="img/mouse.svg"
+              alt="Скрол вниз"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="section services" id="scroll-down">
+      <div class="container" id="services">
+        <h2 class="section__title">Наши услуги</h2>
+        <div class="row services__row">
+          <div class="services__wrapper">
+            <div class="col-45 col-100">
+              <div class="services__text">
+                <h2 class="services__title">Дизайн интерьера</h2>
+                <p class="services__description">
+                  Услуга, направленная на разработку интерьеров помещений с
+                  целью обеспечить удобство и эстетически приятное ощущение у
+                  человека при нахождении в помещении
+                </p>
+              </div>
+            </div>
+            <div class="col-50 col-100">
+              <img
+                class="services__img"
+                src="img/services-1.jpg"
+                alt="Дизайн интерьера"
+              />
+            </div>
+          </div>
+          <div class="services__wrapper">
+            <div class="col-45 col-100 col-45--order">
+              <div class="services__text">
+                <h2 class="services__title">Дизайн экстерьера</h2>
+                <p class="services__description">
+                  Услуга, направленная на разработку дизайна прилегающих
+                  элементов зданий, а также дизайн самих зданий, позволяющая
+                  обеспечить удобство людей при нахождении на территории
+                </p>
+              </div>
+            </div>
+            <div class="col-50 col-100">
+              <img
+                class="services__img"
+                src="img/services-2.jpg"
+                alt="Дизайн экстерьера"
+              />
+            </div>
+          </div>
+          <div class="services__wrapper">
+            <div class="col-45 col-100">
+              <div class="services__text">
+                <h2 class="services__title">Визуализация</h2>
+                <p class="services__description">
+                  Услуга, направленная на разработку дизайна прилегающих
+                  элементов зданий, а также дизайн самих зданий, позволяющая
+                  обеспечить удобство людей при нахождении на территории
+                </p>
+              </div>
+            </div>
+            <div class="col-50 col-100">
+              <img
+                class="services__img"
+                src="img/services-3.jpg"
+                alt="Визуализация"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section works" id="works">
+      <div class="container">
+        <h2 class="section__title">Портфолио</h2>
+        <div class="works__nav">
+          <div class="works__wrapper">
+            <a href="#" class="works__nav-link works__btn" data-filter="all"
+              >все проекты</a
+            >
+          </div>
+          <div class="works__wrapper">
+            <a
+              href="#"
+              class="works__nav-link works__btn"
+              data-filter="exteriors"
+              >экстерьеры
+            </a>
+          </div>
+          <div class="works__wrapper">
+            <a
+              href="#"
+              class="works__nav-link works__btn"
+              data-filter="resid-interiors"
+              >жилые интерьеры</a
+            >
+          </div>
+          <div class="works__wrapper">
+            <a
+              href="#"
+              class="works__nav-link works__btn"
+              data-filter="pub-interiors"
+              >общественные интерьеры
+            </a>
+          </div>
+        </div>
+        <div class="portfolio">
+          <div class="portfolio__col" data-cat="resid-interiors">
+            <div class="portfolio__item">
+              <img
+                src="img/portgolio_1.jpg"
+                alt="portfolio"
+                class="portfolio__img"
+              />
+            </div>
+          </div>
+          <div class="portfolio__col" data-cat="resid-interiors">
+            <div class="portfolio__item">
+              <img
+                src="img/portgolio_2.jpg"
+                alt="portfolio"
+                class="portfolio__img"
+              />
+            </div>
+          </div>
+          <div class="portfolio__col" data-cat="pub-interiors">
+            <div class="portfolio__item">
+              <img
+                src="img/portgolio_3.jpg"
+                alt="portfolio"
+                class="portfolio__img"
+              />
+            </div>
+          </div>
+          <div class="portfolio__col" data-cat="exteriors">
+            <div class="portfolio__item">
+              <img
+                src="img/portgolio_4.jpg"
+                alt="portfolio"
+                class="portfolio__img"
+              />
+            </div>
+          </div>
+          <div class="portfolio__col" data-cat="exteriors">
+            <div class="portfolio__item">
+              <img
+                src="img/portgolio_5.jpg"
+                alt="portfolio"
+                class="portfolio__img"
+              />
+            </div>
+          </div>
+          <div class="portfolio__col" data-cat="pub-interiors">
+            <div class="portfolio__item">
+              <img
+                src="img/portgolio_6.jpg"
+                alt="portfolio"
+                class="portfolio__img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section--bg advantages" id="advantages">
+      <div class="container">
+        <h2 class="section__title">Почему мы лучшие?</h2>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <div class="advantages__icon">
+              <img
+                src="img/advantages-icon-1.svg"
+                alt="icon"
+                class="advantages__icon"
+              />
+            </div>
+            <p class="advantages__description">
+              Профессиональные дизайнеры и визуализаторы с зарубежной практикой
+              работы
+            </p>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__icon">
+              <img
+                src="img/advantages-icon-2.svg"
+                alt="icon"
+                class="advantages__icon"
+              />
+            </div>
+            <p class="advantages__description">
+              Интеративный подход, работаем до полного согласования с Вами
+            </p>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__icon">
+              <img
+                src="img/advantages-icon-3.svg"
+                alt="icon"
+                class="advantages__icon"
+              />
+            </div>
+            <p class="advantages__description">
+              Решаем вопрос закупки, берем авторский надзор на себя (пакет Full)
+            </p>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__icon">
+              <img
+                src="img/advantages-icon-4.svg"
+                alt="icon"
+                class="advantages__icon"
+              />
+            </div>
+            <p class="advantages__description">
+              Над проектом работает группа специалистов под началом project
+              менеджера в ERP системе
+            </p>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__icon">
+              <img
+                src="img/advantages-icon-5.svg"
+                alt="icon"
+                class="advantages__icon"
+              />
+            </div>
+            <p class="advantages__description">
+              Выполнение раньше установленных сроков
+            </p>
+          </li>
+          <li class="advantages__item">
+            <div class="advantages__icon">
+              <img
+                src="img/advantages-icon-6.svg"
+                alt="icon"
+                class="advantages__icon"
+              />
+            </div>
+            <p class="advantages__description">
+              Дарим альбом проекта, вместе с 25% скидкой на следующее обращение
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section operation" id="operation">
+      <div class="container">
+        <h2 class="section__title">Процесс взаимодействия</h2>
+        <div class="operation__row">
+          <div class="operation__wrapper">
+            <div class="col-50 col-100">
+              <div class="operation__text">
+                <h2 class="operation__title">Заполнение брифа</h2>
+              </div>
+            </div>
+            <div class="col-50 col-100">
+              <img
+                class="operation__img"
+                src="img/operation-1.jpg"
+                alt="Исследование"
+              />
+            </div>
+          </div>
+          <div class="operation__wrapper">
+            <div class="col-50 col-100 operation--order">
+              <img
+                class="operation__img"
+                src="img/operation-2.jpg"
+                alt="Идея"
+              />
+            </div>
+            <div class="col-50 col-100">
+              <div class="operation__text">
+                <h2 class="operation__title">Исследование</h2>
+              </div>
+            </div>
+          </div>
+          <div class="operation__wrapper">
+            <div class="col-50 col-100">
+              <div class="operation__text">
+                <h2 class="operation__title">Идея</h2>
+              </div>
+            </div>
+            <div class="col-50 col-100">
+              <img
+                class="operation__img"
+                src="img/operation-3.jpg"
+                alt="Дизайн интерьера"
+              />
+            </div>
+          </div>
+          <div class="operation__wrapper">
+            <div class="col-50 col-100 operation--order">
+              <img
+                class="operation__img"
+                src="img/operation-4.jpg"
+                alt="Завершение"
+              />
+            </div>
+            <div class="col-50 col-100">
+              <div class="operation__text">
+                <h2 class="operation__title">Завершение</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section--bg trust">
+      <div class="container">
+        <h2 class="section__title">Нам доверяют более 50 компаний</h2>
+        <div class="trust__slider slider">
+          <div class="slider__item">
+            <a href="#" class="slider__link">
+              <img src="img/trust_1.png" alt="Компания" class="slider__img" />
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="#" class="slider__link">
+              <img src="img/trust_2.png" alt="Компания" class="slider__img" />
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="#" class="slider__link">
+              <img src="img/trust_3.png" alt="Компания" class="slider__img" />
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="#" class="slider__link">
+              <img src="img/trust_4.png" alt="Компания" class="slider__img" />
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="#" class="slider__link">
+              <img src="img/trust_5.png" alt="Компания" class="slider__img" />
+            </a>
+          </div>
+          <div class="slider__item">
+            <a href="#" class="slider__link">
+              <img src="img/trust_7.png" alt="Компания" class="slider__img" />
+            </a>
+          </div>
+        </div>
+        <input type="range" class="slider__range" min="0" value="0" step="1" />
+      </div>
+    </section>
+    <!-- /.section trust -->
+    <section class="section team" id="team">
+      <div class="container">
+        <h2 class="section__title">Наша команда</h2>
+        <ul class="team__list team__list--bottom">
+          <li class="team__item">
+            <div class="team__wrap-img">
+              <img
+                src="img/team-1.png"
+                alt="Ирина Притыкина"
+                class="team__img"
+              />
+            </div>
+            <div class="team__text">
+              <h3 class="team__title">Ирина Притыкина</h3>
+              <span class="team__subtitle">Директор компании</span>
+            </div>
+          </li>
+          <li class="team__item">
+            <div class="team__wrap-img">
+              <img src="img/team-2.png" alt="Игорь Карий" class="team__img" />
+            </div>
+            <div class="team__text">
+              <h3 class="team__title">Игорь Карий</h3>
+              <span class="team__subtitle">Финансовый директор</span>
+            </div>
+          </li>
+          <li class="team__item">
+            <div class="team__wrap-img">
+              <img
+                src="img/team-4.png"
+                alt="Илья Кондрашин"
+                class="team__img"
+              />
+            </div>
+            <div class="team__text">
+              <h3 class="team__title">Илья Кондрашин</h3>
+              <span class="team__subtitle">Инженер модельер</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="team__list team__list--disable">
+          <li class="team__item">
+            <div class="team__wrap-img">
+              <img
+                src="img/team-5.png"
+                alt="Маргарита Гордеева "
+                class="team__img"
+              />
+            </div>
+            <div class="team__text">
+              <h3 class="team__title">Маргарита Гордеева</h3>
+              <span class="team__subtitle">3D дизайнер</span>
+            </div>
+          </li>
+          <li class="team__item">
+            <div class="team__wrap-img">
+              <img
+                src="img/team-6.png"
+                alt="Светлана Коток"
+                class="team__img"
+              />
+            </div>
+            <div class="team__text">
+              <h3 class="team__title">Светлана Коток</h3>
+              <span class="team__subtitle">Дизайнер интерьеров</span>
+            </div>
+          </li>
+          <li class="team__item">
+            <div class="team__wrap-img">
+              <img
+                src="img/team-3.png"
+                alt="Максим Ковальский "
+                class="team__img"
+              />
+            </div>
+            <div class="team__text">
+              <h3 class="team__title">Максим Ковальский</h3>
+              <span class="team__subtitle">Дизайнер ландшафтов</span>
+            </div>
+          </li>
+        </ul>
+        <div class="team__headmaster">
+          <h3 class="team__headmaster-head">
+            Ты - то, что ты делаешь!
+          </h3>
+          <p class="team__headmaster-description">
+            То, что мы делаем, определяет то, кем мы являемся. Люди чувствуют
+            старание и чувствуют неаккуратность. Это связано с уважением друг к
+            другу, так что небрежность - это неуважение к самому себе.
+          </p>
+          <span class="team__headmaster-name">Ислам Куаныш</span>
+          <span class="team__headmaster-job">Директор</span>
+        </div>
+      </div>
+    </section>
+    <!-- /.section team -->
+    <section class="section blog" id="blog">
+      <div class="container">
+        <h2 class="section__title">Блог</h2>
+        <div class="blog__content">
+          <div class="blog__content-wrap">
+            <img class="blog__img" src="img/blog-1.jpg" alt="blog" />
+            <a href="#" class="blog__link">
+              <span class="blog__link-text"
+                >Минимализм – это самый простой, практичный и «спорный» стиль в
+                дизайне интерьеров</span
+              >
+            </a>
+          </div>
+          <div class="blog__content-wrap">
+            <img class="blog__img" src="img/blog_2.jpg" alt="blog" />
+            <a href="#" class="blog__link">
+              <span class="blog__link-text"
+                >Прованс - это спокойный южный регион Франции, с великолепнейшей
+                природой</span
+              >
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.section blog -->
+    <section class="section questions" id="contacts">
+      <div class="container">
+        <h2 class="section__title questions__title--light">
+          Остались вопросы?
+        </h2>
+        <form action="send.php" method="POST" class="form questions__form">
+          <h3 class="questions__form-title">
+            Задайте их в форме ниже и наши специалисты свяжуться с Вами!
+          </h3>
+          <div class="questions__form-wrapper">
+            <div class="input-group questions__input-group">
+              <label
+                for="user-name-2"
+                class="label form__label label--light"
+              ></label>
+              <input
+                type="text"
+                class="input form__input questions__input input--light"
+                name="userName"
+                id="user-name-2"
+                placeholder="Ваше имя"
+              />
+            </div>
+            <div class="input-group questions__input-group">
+              <label
+                for="user-email-2"
+                class="label form__label label--light"
+              ></label>
+              <input
+                type="email"
+                class="input form__input questions__input input--light"
+                name="userEmail"
+                id="user-email-2"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="input-group questions__input-group">
+              <label
+                for="user-phone-2"
+                class="label form__label label--light"
+              ></label>
+              <input
+                type="tel"
+                class="input form__input questions__input input--light"
+                name="userPhone"
+                id="user-phone-2"
+                placeholder="Номер телефона"
+              />
+            </div>
+            <div class="input-group questions__input-group">
+              <textarea
+                class="questions__text"
+                name="userQuestion"
+                id="user-questions"
+                placeholder="Ваше сообщение"
+              ></textarea>
+            </div>
+            <button class="button button--primary questions__button">
+              Оставить заявку!
+            </button>
+          </div>
+          <div class="contacts questions__contacts">
+            <ul class="contacts__list">
+              <li class="contacts__item contacts__item--tel">
+                <a href="tel:+380669325553" class="contacts__link">
+                  +380 66 932 55 53
+                </a>
+              </li>
+              <li class="contacts__item contacts__item--viber">
+                <a href="tel:+380969325553" class="contacts__link">
+                  +380 96 932 55 53
+                </a>
+              </li>
+              <li class="contacts__item contacts__item--mail">
+                <a href="mailto:sales@23degree.com" class="contacts__link">
+                  sales@23degree.com
+                </a>
+              </li>
+              <li class="contacts__item contacts__item--skype">
+                <a href="skype:23degree?chat" class="contacts__link">
+                  23degree
+                </a>
+              </li>
+              <li class="contacts__item contacts__item--telegram">
+                <a href="https://telegram.me/23degree" class="contacts__link">
+                  23degree
+                </a>
+              </li>
+            </ul>
+            <span class="contacts__text"
+              >График работы: с 9-00 до 18-00. Пн.-Пт.</span
+            >
+          </div>
+        </form>
+      </div>
+    </section>
+    <div class="mapa" id="map"></div>
+    <!-- /.section questions -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__content">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Главная </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Тарифы</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Вопросы-ответы </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Личный кабинет</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Новости </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__social social">
+            <h3 class="social__title">Мы в социальных сетях:</h3>
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img
+                    src="img/facebok-icon.svg"
+                    alt="Фейсбук"
+                    class="social__img"
+                    width="15"
+                    height="15"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img
+                    src="img/google-icon.svg"
+                    alt="google+"
+                    class="social__img"
+                    width="15"
+                    height="15"
+                  />
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__link">
+                  <img
+                    src="img/instagram-icon.svg"
+                    alt="Инстаграм"
+                    class="social__img"
+                    width="15"
+                    height="15"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
